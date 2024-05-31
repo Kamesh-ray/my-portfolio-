@@ -1,0 +1,167 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+
+            </div>
+            <div class="menu">
+        <ul>
+            <li><a href="#" onclick="">Home</a></li>
+            <li><a href="#" onclick="myskill()">Skill</a></li>
+            <li><a href="#" onclick="project()">Projects</a></li>
+            <li><a href="#" onclick="con()">Contact</a></li>
+        </ul>
+        <div class="searchbar">
+            <input class="srch" type="search" placeholder="search here">
+            <button class="btn" type="button">search</button>
+            </div>
+</div>
+        </div>
+        <body>
+            <div id="fpage">
+            <div class="roll">
+            <h1 class="no2">I'm KAMESH </h1>
+            <span><h1>I'm a Java Fullstack Developer to develop the web applications,</h1></span>
+                <span><h1>websites, mobile applications .</h1></span>
+                <button class="Contact"><a href="#">Contact me</a></button>
+        </div>
+        <br>
+        <div class="about">
+        <h1 class="no3" id="about">About</h1>
+        <p class="para">I am a passionate and dedicated software developer with a keen interest in creating innovative solutions to real-world problems. My journey into the world of technology began with a fascination for computers and a desire to understand how software works. Since then, I have been on an exciting learning path, constantly honing my skills and exploring new technologies.
+As an IT fresher, I bring a fresh perspective and a strong foundation in programming concepts. I am eager to leverage my skills to contribute to projects that make a positive impact and drive meaningful change. My goal is to grow as a professional, continually pushing the boundaries of what I can achieve in the field of software development.</p>
+        </div>
+            </div>
+        <br>
+        <div id="skill">
+        <h1 class="no4">My Skills</h1>
+        <div id="images">
+        <div class="box">
+        <img src="java.png" width="100PX" height="100px" alt="No image">
+        <p>JAVA</p>
+        </div>
+        <div class="box">
+            <img src="Javascript.png" width="100PX" height="100px" alt="no image">
+            <p>JAVASCRIPT</p>
+            </div>
+            <div class="box">
+                <img src="html.png" width="100PX" height="100px" alt="no image">
+                <p>HTML</p>
+                </div>
+                <div class="box">
+                    <img src="css.png" width="100PX" height="100px" alt="no image">
+                    <p>CSS</p>
+                    </div>
+                    <div id="images1">
+                        <div class="box">
+        <img src="mysql.png" width="100PX" height="100px" alt="no image" >
+        <p>SQL</p>
+        </div>
+        <div class="box">
+            <img src="Ms office.jpg" width="100PX" height="100px" alt="no image">
+            <p>MS OFFICE</p>
+            </div>
+        </div>
+        <br>
+        <button><a href="HtmlPractice.html">View More</a></button>
+        <br>
+        <h2 class="extras"><u>Extras</u></h2>
+        <div id="images2">
+            <div class="box">
+            <img src="drawing.jpg" width="150PX" height="150px" alt="no image" >
+            <p>Drawing skill</p>
+            </div>
+            <div class="box">
+                <img src="Autocad.jpg" width="150PX" height="150px" alt="no image">
+                <p>Autocad</p>
+                </div>
+                <div class="box">
+                    <img src="photoshop.png" width="150PX" height="150px" alt="no image">
+                    <p>Photoshop</p>
+                    </div>
+                    <div class="box">
+                        <img src="problem solving.jpg" width="150PX" height="150px" alt="no image">
+                        <p>Problem
+                            Solving
+                        </p>
+                        </div>
+        </div>
+                        <div id="proj">
+                        <h1 class="no5"id="PRO"><u>PROJECTS</u></h1>
+                        <div class="project1">
+                            <h3>Mini ATM</h3>
+                            <p>import java.util.Scanner;: This line imports the Scanner class from the java.util package to facilitate user input.
+                                public class MiniATM . This line starts the definition of a class named MiniATM.
+                                private static final int PIN = 1234; and private static final double INITIAL_BALANCE = 1000.0;: These lines define the ATM's PIN and the initial balance. You can adjust these values as needed.
+                                private static double balance = INITIAL_BALANCE;: This line initializes the balance variable with the initial balance.
+                                public static void main(String[] args) { ... }: This is the main method where the program starts its execution.
+                                Scanner scanner = new Scanner(System.in);: This line creates a Scanner object named scanner to read user input from the console.
+                                System.out.println("Welcome to Mini ATM"); ...: These lines display a welcome message and prompt the user to enter their PIN.
+                                if (enteredPin == PIN) { ... } else { ... }: This conditional statement checks if the entered PIN matches the predefined PIN. If the PIN is correct, it proceeds to display the ATM menu; otherwise, it displays an error message and exits.
+                                private static void displayMenu(Scanner scanner) { ... }: This method displays the ATM menu and handles user choices.
+                                do { ... } while (choice != 4);: This loop continues displaying the menu until the user chooses to exit.
+                                switch (choice) { ... }: This switch statement executes different actions based on the user's menu choice.
+                                private static void checkBalance() { ... }: This method displays the current account balance.
+                                private static void withdraw(Scanner scanner) { ... }: This method allows the user to withdraw money from the account.
+                                private static void deposit(Scanner scanner) { ... }: This method allows the user to deposit money into the account.</p>
+                        </div>
+                        <br>
+                        <br>
+                        <div class="project2">
+                            <h3>clock</h3>
+                            <p>import java.util.Calendar; and import java.text.SimpleDateFormat;: These lines import the necessary classes to work with date and time in Java.
+                                public class MiniClock : This line starts the definition of a class named MiniClock.
+                                public static void main(String[] args) {: This is the main method where the program starts its execution.
+                                SimpleDateFormat dateFormat = new SimpleDateFormat("HH:mm:ss");: This line creates a SimpleDateFormat object named dateFormat with the format "HH:mm
+                                ", specifying hours, minutes, and seconds.
+                                while (true) { ... }: This is an infinite loop that continuously updates and prints the current time.
+                                Calendar cal = Calendar.getInstance();: This line gets an instance of the Calendar class representing the current time.
+                                String currentTime = dateFormat.format(cal.getTime());: This line formats the current time obtained from the Calendar instance into a string using the dateFormat.
+                                System.out.print("\r" + currentTime);: This line prints the current time to the console, preceded by a carriage return (\r) to overwrite the previous time.
+                                Thread.sleep(1000);: This line makes the program sleep for 1000 milliseconds (1 second) before updating the time again.
+                                }: End of the infinite loop.</p>
+                            </div>
+                        <h1 id="con">Contact Me</h1>
+                        <div class="para">
+                        <p>kameshak232000@gmail.com</p>
+                        <p>+91 636-904-2415</p>
+                        <p>THIRUVALLUR, CHENNAI-602025</p>
+                        </div>
+        <button id="up"><a href="#">Go back</a></button>
+                        </div>
+    </div>
+    <script>
+        function home(){
+            document.getElementById('fpage').style.display="block";
+            document.getElementById('skill').style.display="none";
+            document.getElementById('proj').style.display="none";
+            document.getElementById('fun').style.display="none";
+            document.getElementById('cont').style.display="none";
+        };
+        function myskill(){
+            document.getElementById('fpage').style.display="none";
+            document.getElementById('skill').style.display="block";
+        };
+
+        function project(){
+            document.getElementById('skill').style.display="none";
+            document.getElementById('proj').style.display="";
+};
+function contact(){
+    document.getElementById('cont').style.display="block";
+    document.getElementById('fpage').style.display="none";
+            document.getElementById('skill').style.display="none";
+            document.getElementById('proj').style.display="none";
+            document.getElementById('fun').style.display="none";
+
+}
+    </script>
+</body>
+</html>
